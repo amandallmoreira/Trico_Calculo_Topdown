@@ -1,13 +1,60 @@
-#banner{
-    width: 100%;
-    height: 500px;
-    background-image: url(../img/pexels-surene-palvie-2062061.jpg
-    background-position: top;
-    background-repeat: no-repeat;
 
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Sacramento&display=swap');
+
+:root{
+    --bege:#bdb88e;
+    --verde:#827c55;
+    --areia:#f7f8da;
+    --bege1:#c9cda4;
+}
+
+.carousel-item{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .nav{
     padding: 10px;
     background-color: rgb(88, 88, 88);
+    font-family:'Dosis', sans-serif;
+    font-size: 30px;
+}
+
+h1,h2,h3{
+    font-family:'Sacramento', cursive;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 100px;
+    padding-bottom: 20px;
+    
+}
+body, #pagina{
+    font-family:'Dosis', sans-serif;
+    background-color: var(--areia);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: var(--verde);
+}
+
+/* ELEMENTO PAI */
+main{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+   
+}
+ /* ELEMENTO FILHO */   
+#conteudo{
+    width: 90%;
+    height: auto;
+    padding: 20px;
+
 }

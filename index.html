@@ -5,20 +5,26 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Atividade Aula 10 Jquery - OnePage - Trico/Topdown</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style/geral.css'>
+    
+    <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel='stylesheet' type='text/css' media='screen' href='style/geral.css'>
+
+
 </head>
 <body>
+  <div id="pagina">
     <header>
         <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">link</a>
+              <a class="nav-link" href="pages/calcTopDown.html">Cálculo de Topdown</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="pages/sobreMim.html">Sobre mim</a>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" aria-disabled="true">Disabled</a>
@@ -27,23 +33,54 @@
                 <button type="button" id="modo">Light/Dark</button>
             </li>
           </ul>
-    </header>
+        </header>
     <main>
-        <div id="banner">
+        <div id="containerBanner">
+          <div id="carouselExampleAutoplaying" class="carousel slide banner" data-bs-ride="carousel">
+            <div class="carousel-inner" style="height: 500px;">
+              <div class="carousel-item active">
+                <img src="img/pexels-surene-palvie-2062061.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/pexels-caroline-feelgood-3654775.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/pexels-surene-palvie-2062061.jpg" class="d-block w-100"  alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Próximo</span>
+            </button>
+          </div>
         </div>
-        
-
+          
+        <section id="conteudo">
+          <h1>Tricô Topdown</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, consectetur magnam? Odio enim eum optio neque vitae aliquid id maiores. Cum quaerat illum veritatis at dolor, aliquam aliquid esse officiis?
+          Similique, cum enim esse accusamus nostrum, beatae eius hic modi eveniet fugit suscipit commodi necessitatibus numquam voluptatibus facere, odit ut non. Provident iusto harum, numquam distinctio ad quia molestiae eos?
+          Dignissimos dicta atque exercitationem, illum nihil et eum molestias non, officiis doloremque modi fugit saepe sunt pariatur. Nostrum incidunt, ad a assumenda praesentium laboriosam ipsam aut, expedita earum qui adipisci.
+          Qui at nam vel veritatis hic. Rerum suscipit, quas nostrum odit earum aperiam blanditiis ducimus laborum placeat, expedita totam debitis saepe enim! Doloremque consequuntur cumque maiores, est deserunt impedit sint.
+          Sed hic error illo unde nostrum aut odit. Corrupti minus expedita sit in, quidem rem quam veniam libero, cupiditate officiis quos quia dignissimos dolore explicabo nulla, assumenda quas iste cum.</p>
+        </section>
+       
     </main>
     <footer>
-
+      Tricô Topdown Calculo de Proporções - Todos os direitos reservados.
     </footer>
 
+    <!-- POPPER -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <!-- FIM POPPER -->
     <script src='js/jquery-3.7.1.js'></script>
     <script src='js/script.js'></script>
 
    
-
+  </div>
 </body>
 </html>
