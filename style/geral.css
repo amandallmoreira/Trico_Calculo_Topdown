@@ -10,11 +10,24 @@
 }
 
 .carousel-item{
-    background-position: center;
+    height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
 }
+#carrousel1{
+    background-image: url(../img/4novelos.jpg);
+    background-position: center;  
+}
+#carrousel2{
+    background-image: url(../img/trico-textura.jpg);
+    background-position: center;  
+}
+#carrousel3{
+    background-image: url(../img/luzesTrico.jpg);
+    background-position: center;  
+}
 
+    
 .nav{
     padding: 10px;
     background-color: rgb(88, 88, 88);
